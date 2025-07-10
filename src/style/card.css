@@ -1,0 +1,45 @@
+.carrerasItem,
+.carrerasItemGrande {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(63, 125, 88);
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+  max-height: 250px;
+}
+
+.carrerasItemGrande {
+  grid-column: span 2;
+}
+
+.carrerasImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.carrerasItem:hover .carrerasImg,
+.carrerasItemGrande:hover .carrerasImg {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carrerasItem:hover .overlay,
+.carrerasItemGrande:hover .overlay {
+  opacity: 1;
+}

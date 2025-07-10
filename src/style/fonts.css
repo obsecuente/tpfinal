@@ -1,0 +1,67 @@
+/* === FONT IMPORTS === */
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* === GLOBAL FONTS === */
+h1 {
+    font-family: 'Cal Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+p, .footer {
+    letter-spacing: 2px;
+    font-size: large;
+    font-family: 'Cal Sans', sans-serif;
+}
+
+/* === NAV BAR === */
+.navBar {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navBar a {
+    color: black;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+/* === CARRERAS PAGE === */
+.carreras-texto h2 {
+    font-family: 'Cal Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    text-shadow: 4px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carreras-texto h3 {
+    font-family: 'Cal Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-shadow: 4px 5px 2px rgba(0, 0, 0, 0.8);
+}
+
+.orderer-list ul {
+    font-family: 'Cal Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* === CONTACTO PAGE === */
+.title-inputs, .contactoPTitle {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 40px;
+    background-position-x: 30%;
+}

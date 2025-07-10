@@ -1,0 +1,111 @@
+/* contacto.css */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(239, 239, 239);
+}
+
+
+html, body {
+  height: 100%;
+}
+
+.contactoMain {
+  background-color: rgb(239, 150, 81);
+  background-image: url(/assets/logoUtnSolo.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position-x: 129%;
+  border-bottom: 5px solid rgb(63, 125, 88);
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+  border-bottom: 5px solid rgb(63, 125, 88);
+}
+
+.contactoPTitle {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 25px 0;
+  letter-spacing: 8px;
+}
+
+.contactoContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.contactoGps {
+  max-width: 460px;
+}
+
+.contactoPGps {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contactoInputsGeneral {
+  display: grid;
+  gap: 16px;
+  width: 500px; 
+  padding: 20px; 
+}
+
+.contactoInputs {
+  height: 60px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 3px solid rgb(63, 125, 88);
+  
+  color: black;
+  outline: none;
+}
+
+#contactoSend {
+  background-color: rgb(63, 125, 88);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contactoSend:hover {
+  background-color: rgb(45, 90, 65);
+}
+
+.contactoFooter {
+  padding: 15px 0;
+  background-color: rgb(239, 150, 81);
+  border-top: 5px solid rgb(63, 125, 88);
+  text-align: center;
+}
+
+.contactoInputsButton{
+background-color:rgb(63, 125, 88);
+color: rgb(239, 239, 239);
+font-weight: bold;
+cursor: pointer;
+padding: 10px 20px;
+border-radius: 6px;
+border: none;
+margin-top: 10px;
+
+}
+.contactoPFooter {
+  margin-bottom: 0;
+}
