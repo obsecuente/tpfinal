@@ -1,13 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import './NavBar.css';
-
+import React from "react";
+import { Link } from "react-router-dom";
+import "./navBar.css";
 
 function NavBar() {
   return (
     <header className="generalHeader">
       <Link to="/">
-        <img src="/assets/logoUTN.png" alt="Inicio" style={{ width: "200px" }} />
+        <img
+          src="/assets/logoUTN.png"
+          alt="Inicio"
+          style={{ width: "200px" }}
+        />
       </Link>
       <h1>UNIVERSIDAD TECNOLÓGICA NACIONAL</h1>
       <nav className="navBar">
@@ -20,5 +23,4 @@ function NavBar() {
   );
 }
 
-export default NavBar
-
+export default NavBar;
